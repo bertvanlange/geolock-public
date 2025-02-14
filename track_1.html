@@ -9,11 +9,15 @@
 <body>
     <h1>Welkom op track een</h1>
     <p id="status">Welkom op track one, deze track zal je met een aantal histories punten door breda leiden</p>
-    <a href="index.html">Ga terug naar het hooft menu</a>
+    <a href="index.html">Ga terug naar het hooft menu</a><br>
+    <a d ="location_status">Je bevind je nog niet op een juiste locatie</a><br>
+    <a href="track_1.html">Controleer locatie opnieuw</a><br>
+
+
 </body>
 <script type="module">
 
-import { check_location_list } from 'https://cdn.jsdelivr.net/gh/bertvanlange/geolock-public@main/location_check.js';
+    import { check_location_list } from 'https://cdn.jsdelivr.net/gh/bertvanlange/geolock-public@main/location_check.js';
         check_location_list("/locations_track_1.json")
 </script>
 </html>

@@ -11,11 +11,12 @@
     <p id="status">Welkom op track twee, deze leid je langs "huidige" cultuur van breda </p>
     <a href="index.html">Ga terug naar het hooft menu</a>
     <br>
-    <a d ="location_status">Je bevind je nog niet op een juiste locatie</a>
+    <a d ="location_status">Je bevind je nog niet op een juiste locatie</a><br>
+    <a href="track_2.html">Controleer locatie opnieuw</a><br>
 </body>
 <script type="module">
 
-    import {check_location_list} from '/location_check.js';
+    import { check_location_list } from 'https://cdn.jsdelivr.net/gh/bertvanlange/geolock-public@main/location_check.js';
         check_location_list("/locations_track_2.json")
 </script>
 </html>
