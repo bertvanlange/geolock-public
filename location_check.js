@@ -4,7 +4,7 @@
 
     async function loadLocations(file_name) {
         // Check if we're running locally or on GitHub Pages
-        const filePath = window.location.hostname === "127.0.0.1" ? file_name : "https://raw.githubusercontent.com/bertvanlange/geolocked-links/refs/heads/main/" + file_name;
+        const filePath = window.location.hostname === "127.0.0.1" ? file_name : "https://raw.githubusercontent.com/bertvanlange/geolock-public/refs/heads/main/" + file_name;
 
         try {
             // Fetch the JSON file from the correct path
